@@ -1,33 +1,65 @@
-= Demo-Presentation1
-Thomas W. Stütz
-1.0, 2020-08-22
+= LeoCode
+Benjamin Besic, David Ignjatovic, Bozidar Spasenovic
 ifndef::sourcedir[:sourcedir: ../src/main/java]
 ifndef::imagesdir[:imagesdir: images]
 ifndef::backend[:backend: html5]
 :icons: font
 
-== First Slide
 
-* aaa
-* bbb
-* ccc [red]#red text#
+== Inhaltsverzeichnis
 
-=== Second Slide
+---
 
-[plantuml,cld,png]
-----
-@startuml
-class Person {
-brand: String
-type: String
-}
-@enduml
-----
+=== Projekt beschreibung
 
-== Third Slide
+LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird, um das Coding zu üben.
 
-image:https://images.pexels.com/photos/3966425/pexels-photo-3966425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940[VW]
+Team:
 
-== Fourth Slide
+- Benjamin Besic
 
-IMPORTANT: Something very important
+- David Ignjatovic
+
+- Yimne Raid
+
+- Bozidar Spasenovic
+
+---
+
+
+== Ausgangssituation
+
+Die HTL Leonding ist eine HTL mit ungefähr 1000 Schülern und den Abteilungen Medientechnik, Informatik, Medizintechnik sowie Elektronik.
+
+== Problemstellung
+
+Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Unterricht und kennen sich meistens nicht bei den Hausübungen aus. Noch dazu haben die ersten Klassen öfters Probleme mit den IDE’s. Meistens haben sie keinen Zugriff oder andere Probleme.
+
+== Aufgabenstellung
+Zu entwickeln ist eine Plattform, die Folgendes kann:
+
+---
+
+
+== Ziele
+
+- Schüler bekommen eine Vielfalt von Beispielen inklusive Unterrichtsbeispielen bereitgestellt.
+
+- Eine verstärkte Koordination des Unterrichts in den jeweiligen Schulstufen und auch zwischen Parallelklassen.
+
+- Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
+
+---
+== Was haben wir?
+
+Keine Ahnung
+
+---
+
+== Wie geht es weiter?
+
+=== Möglichkeit 1:
+
+Hinzufügen von online Editor anstatt .zip abgabe.
+
+=== Möglichkeit 2:
