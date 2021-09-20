@@ -5,14 +5,9 @@ ifndef::imagesdir[:imagesdir: images]
 ifndef::backend[:backend: html5]
 :icons: font
 
+=== Projektbeschreibung
 
-== Inhaltsverzeichnis
-
----
-
-=== Projekt beschreibung
-
-LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird, um das Coding zu üben.
+LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird, um das Coden zu üben.
 
 Team:
 
@@ -29,17 +24,60 @@ Team:
 
 == Ausgangssituation
 
-Die HTL Leonding ist eine HTL mit ungefähr 1000 Schülern und den Abteilungen Medientechnik, Informatik, Medizintechnik sowie Elektronik.
+Die HTL Leonding ist eine technische Schule, die unter anderem das Programmieren lernt. Das kann in der ersten Klasse anspruchsvoll werden ohne Vorkenntnisse.
 
 == Problemstellung
 
 Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Unterricht und kennen sich meistens nicht bei den Hausübungen aus. Noch dazu haben die ersten Klassen öfters Probleme mit den IDE’s. Meistens haben sie keinen Zugriff oder andere Probleme.
 
-== Aufgabenstellung
-Zu entwickeln ist eine Plattform, die Folgendes kann:
+== Aufgabenstellung/Anforderung
 
----
+=== Use-Case Diagramm (Professor)
+[plantuml]
+----
 
+@startuml
+
+left to right direction
+:Professor:
+
+rectangle LeoCode{
+
+Professor -- (publish coding tasks)
+Professor -- (view current coding tasks)
+Professor -- (edit coding tasks)
+Professor -- (view anonymous stats)
+(edit coding tasks) .> (edit/create unit tests) : <<include>>
+
+}
+
+@enduml
+----
+
+=== Use-Case Diagramm (Student and Guest)
+[plantuml]
+----
+
+@startuml
+
+left to right direction
+:Student:
+:Guest:
+rectangle LeoCode{
+
+
+Guest -up- (do coding task)
+Guest -up- (view unit test feedback)
+
+Student -- (manage own coding tasks)
+Student -- (do coding task)
+Student -- (view unit test feedback)
+Student -- (make task feedback available for Professor)
+
+}
+
+@enduml
+----
 
 == Ziele
 
@@ -50,15 +88,33 @@ Zu entwickeln ist eine Plattform, die Folgendes kann:
 - Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
 
 ---
-== Was haben wir?
 
-Ein Projekt
+== Was haben wir gemacht?
+
+=== Vorheriges Projekt
+
+Projekt eines ehemaligen Schülers wurde uns zur Verfügung gestellt.
+
+image::sys-arc.jpeg[]
+
+=== Unsere Aufgaben
+- Frontend für das bestehende Projekt erstellt
+- Projekt von lokal auf Docker umstellen
+- Webanwendung auf Schul-VM bereitgestellt
+- Authentifizierung mit Keycloak hinzugefügt
+
+---
+
+== Probleme
+
+Vorheriges Projekt muss umgeschrieben werden, um es komplett zu dockern
+
 ---
 
 == Wie geht es weiter?
 
-=== Möglichkeit 1:
+=== Erweiterungen:
 
-Hinzufügen von online Editor anstatt .zip abgabe.
-
-=== Möglichkeit 2:
+- Hinzufügen von Online-Editor anstatt .zip Abgabe
+- Weitere Programmiersprachen
+- Jenkins und Backend auf Docker umstellen
