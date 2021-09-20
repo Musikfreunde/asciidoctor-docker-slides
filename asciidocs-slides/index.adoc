@@ -52,8 +52,7 @@ Zu entwickeln ist eine Plattform, die Folgendes kann:
 ---
 == Was haben wir?
 
-Keine Ahnung
-
+Ein Projekt
 ---
 
 == Wie geht es weiter?
