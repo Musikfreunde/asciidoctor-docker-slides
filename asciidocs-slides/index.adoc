@@ -4,6 +4,8 @@ ifndef::sourcedir[:sourcedir: ../src/main/java]
 ifndef::imagesdir[:imagesdir: images]
 ifndef::backend[:backend: html5]
 :icons: font
+:revealjs_parallaxBackgroundImage: images/logo.jpg
+:revealjs_parallaxBackgroundSize: cover
 
 === Projektbeschreibung
 
@@ -15,20 +17,22 @@ Team:
 
 - David Ignjatovic
 
-- Yimne Raid
-
 - Bozidar Spasenovic
 
----
+
 
 
 == Ausgangssituation
 
-Die HTL Leonding ist eine technische Schule, die unter anderem das Programmieren lernt. Das kann in der ersten Klasse anspruchsvoll werden ohne Vorkenntnisse.
+ - technische Schule die Programmieren lehrt
+
+ - ohne Vorkenntnisse sehr anspruchsvoll
 
 == Problemstellung
 
-Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Unterricht und kennen sich meistens nicht bei den Hausübungen aus. Noch dazu haben die ersten Klassen öfters Probleme mit den IDE’s. Meistens haben sie keinen Zugriff oder andere Probleme.
+- nicht genug praktische Übung
+- Schwierigkeiten bei den Hausübungen
+- Probleme mit den IDE's
 
 == Aufgabenstellung/Anforderung
 
@@ -57,7 +61,6 @@ Professor -- (view anonymous stats)
 === Use-Case Diagramm (Student and Guest)
 [plantuml]
 ----
-
 @startuml
 
 left to right direction
@@ -81,13 +84,12 @@ Student -- (make task feedback available for Professor)
 
 == Ziele
 
-- Schüler bekommen eine Vielfalt von Beispielen inklusive Unterrichtsbeispielen bereitgestellt.
+- Vielfalt von Beispielen inklusive Unterrichtsbeispielen
 
-- Eine verstärkte Koordination des Unterrichts in den jeweiligen Schulstufen und auch zwischen Parallelklassen.
+- Koordination des Unterrichts
 
 - Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
 
----
 
 == Was haben wir gemacht?
 
@@ -103,13 +105,11 @@ image::sys-arc.jpeg[]
 - Webanwendung auf Schul-VM bereitgestellt
 - Authentifizierung mit Keycloak hinzugefügt
 
----
 
 == Probleme
 
 Vorheriges Projekt muss umgeschrieben werden, um es komplett zu dockern
 
----
 
 == Wie geht es weiter?
 
