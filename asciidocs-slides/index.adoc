@@ -7,11 +7,7 @@ ifndef::imagesdir[:imagesdir: images]
 ifndef::backend[:backend: html5]
 :icons: font
 
-:revealjs_parallaxBackgroundImage: coding.jpg
-:revealjs_parallaxBackgroundSize: cover
-
 === Projektbeschreibung
-
 LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird, um das Coden zu üben.
 
 Team:
@@ -26,16 +22,31 @@ Team:
 
 
 == Ausgangssituation
+[%step]
+ * technische Schule, die das Programmieren lehrt
 
- - technische Schule die Programmieren lehrt
+ * ohne Vorkenntnisse sehr anspruchsvoll
 
- - ohne Vorkenntnisse sehr anspruchsvoll
+[.notes]
+--
+* technische Schule, die das Programmieren lehrt
+
+* ohne Vorkenntnisse sehr anspruchsvoll
+--
 
 == Problemstellung
 
-- nicht genug praktische Übung
-- Schwierigkeiten bei den Hausübungen
-- Probleme mit den IDE's
+[%step]
+* nicht genug praktische Übung
+* Schwierigkeiten bei den Hausübungen
+* Probleme mit den IDE's
+
+[.notes]
+--
+* nicht genug praktische Übung
+* Schwierigkeiten bei den Hausübungen
+* Probleme mit den IDE's
+--
 
 == Aufgabenstellung/Anforderung
 
@@ -86,29 +97,42 @@ Student -- (make task feedback available for Professor)
 ----
 
 == Ziele
+[%step]
+* Vielfalt von Beispielen inklusive Unterrichtsbeispielen
 
-- Vielfalt von Beispielen inklusive Unterrichtsbeispielen
+* Koordination des Unterrichts
 
-- Koordination des Unterrichts
+* Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
 
-- Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
+[.notes]
+--
+* Vielfalt von Beispielen inklusive Unterrichtsbeispielen
 
+* Koordination des Unterrichts
 
+* Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
+--
 == Was haben wir gemacht?
-
 === Vorheriges Projekt
-
+[.fontsizeDescription]
 Projekt eines ehemaligen Schülers wurde uns zur Verfügung gestellt.
 
 image::sys-arc.jpeg[]
 
 === Unsere Aufgaben
-- Frontend für das bestehende Projekt erstellt
-- Projekt von lokal auf Docker umstellen
-- Webanwendung auf Schul-VM bereitgestellt
-- Authentifizierung mit Keycloak hinzugefügt
+[%step]
+* Frontend für das bestehende Projekt erstellt
+* Projekt von lokal auf Docker umgestellt
+* Webanwendung auf Schul-VM bereitgestellt
+* Authentifizierung mit Keycloak hinzugefügt
 
-
+[.notes]
+--
+* Frontend für das bestehende Projekt erstellt
+* Projekt von lokal auf Docker umgestellt
+* Webanwendung auf Schul-VM bereitgestellt
+* Authentifizierung mit Keycloak hinzugefügt
+--
 == Probleme
 
 Vorheriges Projekt muss umgeschrieben werden, um es komplett zu dockern
@@ -117,7 +141,13 @@ Vorheriges Projekt muss umgeschrieben werden, um es komplett zu dockern
 == Wie geht es weiter?
 
 === Erweiterungen:
-
-- Hinzufügen von Online-Editor anstatt .zip Abgabe
-- Weitere Programmiersprachen
-- Jenkins und Backend auf Docker umstellen
+[%step]
+* Hinzufügen von Online-Editor anstatt .zip Abgabe
+* Weitere Programmiersprachen
+* Jenkins und Backend auf Docker umstellen
+[.notes]
+--
+* Hinzufügen von Online-Editor anstatt .zip Abgabe
+* Weitere Programmiersprachen
+* Jenkins und Backend auf Docker umstellen
+--
