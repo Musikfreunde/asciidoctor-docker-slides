@@ -18,9 +18,6 @@ Team:
 
 - Bozidar Spasenovic
 
-
-
-
 == Ausgangssituation
 
  - technische Schule die Programmieren lehrt
@@ -32,6 +29,11 @@ Team:
 - nicht genug praktische Übung
 - Schwierigkeiten bei den Hausübungen
 - Probleme mit den IDE's
+
+== Live-Demo
+:hide-uri-scheme:
+
+http://vm147.htl-leonding.ac.at
 
 == Aufgabenstellung/Anforderung
 
@@ -98,22 +100,5 @@ Projekt eines ehemaligen Schülers wurde uns zur Verfügung gestellt.
 
 image::sys-arc.jpeg[]
 
-=== Unsere Aufgaben
-- Frontend für das bestehende Projekt erstellt
-- Projekt von lokal auf Docker umstellen
-- Webanwendung auf Schul-VM bereitgestellt
-- Authentifizierung mit Keycloak hinzugefügt
 
 
-== Probleme
-
-Vorheriges Projekt muss umgeschrieben werden, um es komplett zu dockern
-
-
-== Wie geht es weiter?
-
-=== Erweiterungen:
-
-- Hinzufügen von Online-Editor anstatt .zip Abgabe
-- Weitere Programmiersprachen
-- Jenkins und Backend auf Docker umstellen
