@@ -1,7 +1,5 @@
 = LeoCode
 Benjamin Besic, David Ignjatovic, Bozidar Spasenovic
-<<<<<<< HEAD
-=======
 :customcss: css/presentation.css
 :imagesdir: images
 >>>>>>> 0b51d2acc36c5b0f75d775a9a051134f33f35b4a
@@ -9,15 +7,10 @@ ifndef::sourcedir[:sourcedir: ../src/main/java]
 ifndef::imagesdir[:imagesdir: images]
 ifndef::backend[:backend: html5]
 :icons: font
-<<<<<<< HEAD
 :revealjs_parallaxBackgroundSize: cover
 
-=== Projektbeschreibung
 
-=======
-
-=== Projektbeschreibung
->>>>>>> 0b51d2acc36c5b0f75d775a9a051134f33f35b4a
+== Projektbeschreibung
 LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird, um das Coden zu üben.
 
 Team:
@@ -28,7 +21,6 @@ Team:
 
 - Bozidar Spasenovic
 
-<<<<<<< HEAD
 == Ausgangssituation
 
  - technische Schule die Programmieren lehrt
@@ -45,9 +37,6 @@ Team:
 :hide-uri-scheme:
 
 http://vm147.htl-leonding.ac.at
-=======
-
-
 
 == Ausgangssituation
 [%step]
@@ -55,27 +44,12 @@ http://vm147.htl-leonding.ac.at
 
  * ohne Vorkenntnisse sehr anspruchsvoll
 
-[.notes]
---
-* technische Schule, die das Programmieren lehrt
-
-* ohne Vorkenntnisse sehr anspruchsvoll
---
-
 == Problemstellung
 
 [%step]
 * nicht genug praktische Übung
 * Schwierigkeiten bei den Hausübungen
 * Probleme mit den IDE's
-
-[.notes]
---
-* nicht genug praktische Übung
-* Schwierigkeiten bei den Hausübungen
-* Probleme mit den IDE's
---
->>>>>>> 0b51d2acc36c5b0f75d775a9a051134f33f35b4a
 
 == Aufgabenstellung/Anforderung
 
@@ -126,7 +100,6 @@ Student -- (make task feedback available for Professor)
 ----
 
 == Ziele
-<<<<<<< HEAD
 
 - Vielfalt von Beispielen inklusive Unterrichtsbeispielen
 
@@ -138,69 +111,9 @@ Student -- (make task feedback available for Professor)
 == Was haben wir gemacht?
 
 === Vorheriges Projekt
-
-=======
-[%step]
-* Vielfalt von Beispielen inklusive Unterrichtsbeispielen
-
-* Koordination des Unterrichts
-
-* Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
-
-[.notes]
---
-* Vielfalt von Beispielen inklusive Unterrichtsbeispielen
-
-* Koordination des Unterrichts
-
-* Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
---
-== Was haben wir gemacht?
-=== Vorheriges Projekt
 [.fontsizeDescription]
->>>>>>> 0b51d2acc36c5b0f75d775a9a051134f33f35b4a
 Projekt eines ehemaligen Schülers wurde uns zur Verfügung gestellt.
 
 image::sys-arc.jpeg[]
 
-<<<<<<< HEAD
-
-
-=======
-=== Unsere Aufgaben
-[%step]
-* Frontend für das bestehende Projekt erstellt
-* Projekt von lokal auf Docker umgestellt
-* Webanwendung auf Schul-VM bereitgestellt
-* Authentifizierung mit Keycloak hinzugefügt
-
-[.notes]
---
-* Frontend für das bestehende Projekt erstellt
-* Projekt von lokal auf Docker umgestellt
-* Webanwendung auf Schul-VM bereitgestellt
-* Authentifizierung mit Keycloak hinzugefügt
---
-== Probleme
-
-Vorheriges Projekt muss umgeschrieben werden, um es komplett zu dockern
-
-
-== Wie geht es weiter?
-
-=== Erweiterungen:
-[%step]
-* Hinzufügen von Online-Editor anstatt .zip Abgabe
-* Weitere Programmiersprachen
-* Jenkins und Backend auf Docker umstellen
-
-[.notes]
---
-* Hinzufügen von Online-Editor anstatt .zip Abgabe
-* Weitere Programmiersprachen
-* Jenkins und Backend auf Docker umstellen
---
-
-
 == DANKE FÜR IHRE AUFMERKSAMKEIT
->>>>>>> 0b51d2acc36c5b0f75d775a9a051134f33f35b4a
