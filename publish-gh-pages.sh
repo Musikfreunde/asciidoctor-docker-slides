@@ -6,7 +6,7 @@
 BUILD_DIR="gh-pages"
 OLD=$(pwd)
 ORIGIN_URL=$(git config --get remote.origin.url)
-${pwd}/build-slides-docker.sh
+$(pwd)/build-slides-docker.sh
 cd $BUILD_DIR
 git init
 git add .

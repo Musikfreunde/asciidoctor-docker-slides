@@ -2,12 +2,12 @@
 Benjamin Besic, David Ignjatovic, Bozidar Spasenovic
 :customcss: css/presentation.css
 :imagesdir: images
->>>>>>> 0b51d2acc36c5b0f75d775a9a051134f33f35b4a
 ifndef::sourcedir[:sourcedir: ../src/main/java]
 ifndef::imagesdir[:imagesdir: images]
 ifndef::backend[:backend: html5]
 :icons: font
-:revealjs_parallaxBackgroundSize: cover
+:revealjs_parallaxBackgroundSize: contain
+:revealjs_parallaxBackgroundImage: images/background.png
 
 
 == Projektbeschreibung
@@ -22,13 +22,13 @@ Team:
 - Bozidar Spasenovic
 
 == Ausgangssituation
-
+[%step]
  - technische Schule die Programmieren lehrt
 
  - ohne Vorkenntnisse sehr anspruchsvoll
 
 == Problemstellung
-
+[%step]
 - nicht genug praktische Übung
 - Schwierigkeiten bei den Hausübungen
 - Probleme mit den IDE's
@@ -100,7 +100,7 @@ Student -- (make task feedback available for Professor)
 ----
 
 == Ziele
-
+[%step]
 - Vielfalt von Beispielen inklusive Unterrichtsbeispielen
 
 - Koordination des Unterrichts
