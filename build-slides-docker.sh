@@ -62,3 +62,22 @@ echo "build completed ..."
 
 # Cheat Sheet
 # https://powerman.name/doc/asciidoc
+
+# Tolles Beispiel
+# https://bentolor.github.io/java9to13
+# https://github.com/bentolor/java9to13/blob/master/docs/render
+
+# https://asciidoctor.org/docs/asciidoctor-revealjs/
+
+# revealjs_theme=[beige, black, league, night, serif, simple, sky, solarized, white]
+# revealjs_transition [none, fade, slide, convex, concave, zoom]
+# source-highlighter [highlightjs,rouge,coderay,prettify]
+
+# https://asciidoctor.org/docs/user-manual/#highlight-js
+#           -a highlightjs-theme=github \
+#           -a highlightjsdir=highlight \
+#           -a highlightjs-languages=java,yaml,json,asciidoc \
+#           -a highlightjsdir=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build \
+
+# Cheat Sheet
+# https://powerman.name/doc/asciidoc
