@@ -38,19 +38,6 @@ Team:
 
 http://vm147.htl-leonding.ac.at
 
-== Ausgangssituation
-[%step]
- * technische Schule, die das Programmieren lehrt
-
- * ohne Vorkenntnisse sehr anspruchsvoll
-
-== Problemstellung
-
-[%step]
-* nicht genug praktische Übung
-* Schwierigkeiten bei den Hausübungen
-* Probleme mit den IDE's
-
 == Aufgabenstellung/Anforderung
 
 === Use-Case Diagramm (Professor)
