@@ -1,0 +1,119 @@
+= LeoCode
+Benjamin Besic, David Ignjatovic, Bozidar Spasenovic
+ifndef::sourcedir[:sourcedir: ../src/main/java]
+ifndef::imagesdir[:imagesdir: images]
+ifndef::backend[:backend: html5]
+:icons: font
+:revealjs_parallaxBackgroundSize: cover
+
+=== Projektbeschreibung
+
+LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird, um das Coden zu üben.
+
+Team:
+
+- Benjamin Besic
+
+- David Ignjatovic
+
+- Bozidar Spasenovic
+
+
+
+
+== Ausgangssituation
+
+ - technische Schule die Programmieren lehrt
+
+ - ohne Vorkenntnisse sehr anspruchsvoll
+
+== Problemstellung
+
+- nicht genug praktische Übung
+- Schwierigkeiten bei den Hausübungen
+- Probleme mit den IDE's
+
+== Aufgabenstellung/Anforderung
+
+=== Use-Case Diagramm (Professor)
+[plantuml]
+----
+
+@startuml
+
+left to right direction
+:Professor:
+
+rectangle LeoCode{
+
+Professor -- (publish coding tasks)
+Professor -- (view current coding tasks)
+Professor -- (edit coding tasks)
+Professor -- (view anonymous stats)
+(edit coding tasks) .> (edit/create unit tests) : <<include>>
+
+}
+
+@enduml
+----
+
+=== Use-Case Diagramm (Student and Guest)
+[plantuml]
+----
+@startuml
+
+left to right direction
+:Student:
+:Guest:
+rectangle LeoCode{
+
+
+Guest -up- (do coding task)
+Guest -up- (view unit test feedback)
+
+Student -- (manage own coding tasks)
+Student -- (do coding task)
+Student -- (view unit test feedback)
+Student -- (make task feedback available for Professor)
+
+}
+
+@enduml
+----
+
+== Ziele
+
+- Vielfalt von Beispielen inklusive Unterrichtsbeispielen
+
+- Koordination des Unterrichts
+
+- Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
+
+
+== Was haben wir gemacht?
+
+=== Vorheriges Projekt
+
+Projekt eines ehemaligen Schülers wurde uns zur Verfügung gestellt.
+
+image::sys-arc.jpeg[]
+
+=== Unsere Aufgaben
+- Frontend für das bestehende Projekt erstellt
+- Projekt von lokal auf Docker umstellen
+- Webanwendung auf Schul-VM bereitgestellt
+- Authentifizierung mit Keycloak hinzugefügt
+
+
+== Probleme
+
+Vorheriges Projekt muss umgeschrieben werden, um es komplett zu dockern
+
+
+== Wie geht es weiter?
+
+=== Erweiterungen:
+
+- Hinzufügen von Online-Editor anstatt .zip Abgabe
+- Weitere Programmiersprachen
+- Jenkins und Backend auf Docker umstellen
