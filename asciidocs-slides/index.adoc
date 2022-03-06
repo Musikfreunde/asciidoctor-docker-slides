@@ -1,4 +1,4 @@
-[.title-text]
+[.title]
 = LeoCode
 Benjamin Besic, David Ignjatovic, Bozidar Spasenovic
 :customcss: css/presentation.css
@@ -11,6 +11,7 @@ ifndef::backend[:backend: html5]
 :revealjs_parallaxBackgroundImage: images/background.png
 
 [background-image="young-students-2.jpeg",background-opacity="0.3", background-size="contain"]
+[transition="zoom-in slide-out"]
 == Ausgangssituation
 [%step]
  - Die HTL Leonding technische Schule die Programmieren lehrt
@@ -82,6 +83,7 @@ Student -- (make task feedback available for Professor)
 @enduml
 ----
 
+[transition="zoom-in slide-out"]
 == Ziele
 [%step]
 - Vielfalt von Beispielen inklusive Unterrichtsbeispielen
@@ -100,4 +102,5 @@ Projekt eines ehemaligen Schülers wurde uns zur Verfügung gestellt.
 
 image::sys-arc.jpeg[]
 
+[transition="zoom-in slide-out"]
 == DANKE FÜR IHRE AUFMERKSAMKEIT
