@@ -30,8 +30,10 @@ ifndef::backend[:backend: html5]
 [transition="zoom-in slide-out"]
 == Live-Demo
 :hide-uri-scheme:
-image::process-diagram.png[width=700]
 http://vm147.htl-leonding.ac.at[window="_blank"]
+
+[%notitle]
+image::process-diagram.png[width=700]
 
 [transition="zoom-in slide-out"]
 == Aufgabenstellung/Anforderung
