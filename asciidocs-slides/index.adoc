@@ -15,23 +15,23 @@ ifndef::backend[:backend: html5]
 [transition="zoom-in slide-out"]
 == Ausgangssituation
 [%step]
- - Die HTL Leonding technische Schule die Programmieren lehrt
+ - Die HTL Leonding ist eine technische Schule, die Programmieren lehrt.
 
- - ohne Vorkenntnisse sehr anspruchsvoll
-
-[transition="zoom-in slide-out"]
-== Problemstellung
-[%step]
-- nicht genug praktische Übung
-- Schwierigkeiten bei den Hausübungen
-- Probleme mit den IDE's
+ - Ohne Vorkenntnisse sehr anspruchsvoll
+//
+//[transition="zoom-in slide-out"]
+//== Problemstellung
+//[%step]
+//- nicht genug praktische Übung
+//- Schwierigkeiten bei den Hausübungen
+//- Probleme mit den IDE's
 
 [.live-demo,background-image="first-slide-background.jpg",background-opacity="0.3", background-size="contain"]
 [transition="zoom-in slide-out"]
 == Live-Demo
 :hide-uri-scheme:
 
-http://vm147.htl-leonding.ac.at
+http://vm147.htl-leonding.ac.at[target="_blank"]
 
 [transition="zoom-in slide-out"]
 == Aufgabenstellung/Anforderung
