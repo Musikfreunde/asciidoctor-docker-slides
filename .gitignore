@@ -7,6 +7,7 @@ gh-pages
 /build-slides-revealjs/
 /build-docs-pdf/
 
+push.sh
 
 
 
