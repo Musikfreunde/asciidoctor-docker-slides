@@ -7,8 +7,8 @@
 }
 
 
-.reveal section.title {
-    font-family: "Quicksand", sans-serif;
+.title {
+    font-family: Quicksand, sans-serif;
     font-weight: bold;
     text-decoration: underline;
     line-height: 1em;
@@ -18,5 +18,9 @@
 }
 
 .title-text{
-    font-family: "Courier New";
+    font-family: "Courier New", sans-serif;
+}
+
+.live-demo{
+    color: white;
 }

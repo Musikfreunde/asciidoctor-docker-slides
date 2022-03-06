@@ -24,13 +24,14 @@ ifndef::backend[:backend: html5]
 - Schwierigkeiten bei den Hausübungen
 - Probleme mit den IDE's
 
-[background-image="first-slide-background.jpg",background-opacity="0.3", background-size="contain"]
+[.live-demo,background-image="first-slide-background.jpg",background-opacity="0.3", background-size="contain"]
+[transition="zoom-in slide-out"]
 == Live-Demo
 :hide-uri-scheme:
 
 http://vm147.htl-leonding.ac.at
 
-[transition="fade-out"]
+[transition="zoom-in slide-out"]
 == Aufgabenstellung/Anforderung
 
 [background-image="young-students-1.jpeg",background-opacity="0.3", background-size="contain"]
@@ -90,7 +91,7 @@ Student -- (make task feedback available for Professor)
 - Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
 
 
-[transition="fade-out"]
+[transition="zoom-in slide-out"]
 == Was haben wir gemacht?
 
 === Vorheriges Projekt
