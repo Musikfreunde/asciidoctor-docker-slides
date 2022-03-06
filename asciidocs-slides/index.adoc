@@ -9,7 +9,7 @@ ifndef::backend[:backend: html5]
 :icons: font
 :revealjs_parallaxBackgroundSize: contain
 :revealjs_parallaxBackgroundImage: images/background.png
-:title-slide-background-image: coding-background.jpeg
+:title-slide-background-image: coding-background.png
 
 [background-image="young-students-2.jpeg",background-opacity="0.3", background-size="contain"]
 [transition="zoom-in slide-out"]
