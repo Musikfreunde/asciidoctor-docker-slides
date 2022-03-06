@@ -7,7 +7,7 @@
 }
 
 
-SECTION .title {
+.reveal section.title h1 {
     font-family: "Quicksand", sans-serif;
     font-weight: bold;
     text-decoration: underline;

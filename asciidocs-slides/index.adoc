@@ -33,6 +33,7 @@ http://vm147.htl-leonding.ac.at
 [transition="fade-out"]
 == Aufgabenstellung/Anforderung
 
+[background-image="young-students-1.jpeg",background-opacity="0.3", background-size="contain"]
 === Use-Case Diagramm (Lehrkraft)
 [plantuml]
 ----
@@ -55,7 +56,7 @@ Lehrkraft -- (view anonymous stats)
 @enduml
 ----
 
-[background-image="young-students-1.jpeg",background-opacity="0.3", background-size="contain"]
+[background-image="young-students-3.jpeg",background-opacity="0.3", background-size="contain"]
 === Use-Case Diagramm (Student and Guest)
 [plantuml]
 ----
