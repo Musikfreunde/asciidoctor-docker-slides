@@ -33,7 +33,9 @@ ifndef::backend[:backend: html5]
 http://vm147.htl-leonding.ac.at[window="_blank"]
 
 [%notitle]
-image::process-diagram.png
+[transition="zoom-in slide-out"]
+== Process diagram
+image::process-diagram.png[]
 
 [transition="zoom-in slide-out"]
 == Aufgabenstellung/Anforderung
