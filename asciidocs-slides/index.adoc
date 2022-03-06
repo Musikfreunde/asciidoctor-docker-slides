@@ -31,7 +31,7 @@ ifndef::backend[:backend: html5]
 == Live-Demo
 :hide-uri-scheme:
 
-http://vm147.htl-leonding.ac.at[target="_blank"]
+http://vm147.htl-leonding.ac.at[window="_blank"]
 
 [transition="zoom-in slide-out"]
 == Aufgabenstellung/Anforderung
