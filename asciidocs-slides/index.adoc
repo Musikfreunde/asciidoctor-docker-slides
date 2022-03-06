@@ -1,4 +1,3 @@
-[background-image="coding-background.jpeg",background-opacity="0.3", background-size="contain"]
 [.title]
 = `LeoCode`
 Benjamin Besic, David Ignjatovic, Bozidar Spasenovic
@@ -10,6 +9,7 @@ ifndef::backend[:backend: html5]
 :icons: font
 :revealjs_parallaxBackgroundSize: contain
 :revealjs_parallaxBackgroundImage: images/background.png
+:title-slide-background-image: coding-background.jpeg
 
 [background-image="young-students-2.jpeg",background-opacity="0.3", background-size="contain"]
 [transition="zoom-in slide-out"]
