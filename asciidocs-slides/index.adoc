@@ -9,52 +9,44 @@ ifndef::backend[:backend: html5]
 :revealjs_parallaxBackgroundSize: contain
 :revealjs_parallaxBackgroundImage: images/background.png
 
-
-== Projektbeschreibung
-LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird, um das Coden zu üben.
-
-Team:
-
-- Benjamin Besic
-
-- David Ignjatovic
-
-- Bozidar Spasenovic
-
+[.lightbg,background-image="images/young-students-2.jpg",background-opacity="0.6", background-size="contain"]
 == Ausgangssituation
 [%step]
- - technische Schule die Programmieren lehrt
+ - Die HTL Leonding technische Schule die Programmieren lehrt
 
  - ohne Vorkenntnisse sehr anspruchsvoll
 
+[transition="fade-out"]
 == Problemstellung
 [%step]
 - nicht genug praktische Übung
 - Schwierigkeiten bei den Hausübungen
 - Probleme mit den IDE's
 
+[.lightbg,background-image="images/first-slide-background.jpg",background-opacity="0.6", background-size="contain"]
 == Live-Demo
 :hide-uri-scheme:
 
 http://vm147.htl-leonding.ac.at
 
+[transition="fade-out"]
 == Aufgabenstellung/Anforderung
 
-=== Use-Case Diagramm (Professor)
+=== Use-Case Diagramm (Lehrkraft)
 [plantuml]
 ----
 
 @startuml
 
 left to right direction
-:Professor:
+:Lehrkraft:
 
 rectangle LeoCode{
 
-Professor -- (publish coding tasks)
-Professor -- (view current coding tasks)
-Professor -- (edit coding tasks)
-Professor -- (view anonymous stats)
+Lehrkraft -- (publish coding tasks)
+Lehrkraft -- (view current coding tasks)
+Lehrkraft -- (edit coding tasks)
+Lehrkraft -- (view anonymous stats)
 (edit coding tasks) .> (edit/create unit tests) : <<include>>
 
 }
@@ -62,6 +54,7 @@ Professor -- (view anonymous stats)
 @enduml
 ----
 
+[.lightbg,background-image="images/young-students-1.jpeg",background-opacity="0.6", background-size="contain"]
 === Use-Case Diagramm (Student and Guest)
 [plantuml]
 ----
@@ -95,6 +88,7 @@ Student -- (make task feedback available for Professor)
 - Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
 
 
+[transition="fade-out"]
 == Was haben wir gemacht?
 
 === Vorheriges Projekt
