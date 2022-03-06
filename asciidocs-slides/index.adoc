@@ -26,7 +26,7 @@ ifndef::backend[:backend: html5]
 //- Schwierigkeiten bei den Hausübungen
 //- Probleme mit den IDE's
 
-[.live-demo,background-image="first-slide-background.jpg",background-opacity="0.3", background-size="contain"]
+[.fontsizeDescription,.live-demo,background-image="first-slide-background.jpg",background-opacity="0.3", background-size="contain"]
 [transition="zoom-in slide-out"]
 == Live-Demo
 :hide-uri-scheme:
