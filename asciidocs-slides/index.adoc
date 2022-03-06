@@ -17,7 +17,7 @@ ifndef::backend[:backend: html5]
 
  - ohne Vorkenntnisse sehr anspruchsvoll
 
-[transition="fade-out"]
+[transition="zoom-in slide-out"]
 == Problemstellung
 [%step]
 - nicht genug praktische Übung
