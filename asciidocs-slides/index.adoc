@@ -1,3 +1,4 @@
+[.title-text]
 = LeoCode
 Benjamin Besic, David Ignjatovic, Bozidar Spasenovic
 :customcss: css/presentation.css
@@ -9,7 +10,7 @@ ifndef::backend[:backend: html5]
 :revealjs_parallaxBackgroundSize: contain
 :revealjs_parallaxBackgroundImage: images/background.png
 
-[.lightbg,background-image="young-students-2.jpg",background-opacity="0.6", background-size="contain"]
+[background-image="young-students-2.jpeg",background-opacity="0.4", background-size="contain"]
 == Ausgangssituation
 [%step]
  - Die HTL Leonding technische Schule die Programmieren lehrt
@@ -23,7 +24,7 @@ ifndef::backend[:backend: html5]
 - Schwierigkeiten bei den Hausübungen
 - Probleme mit den IDE's
 
-[.lightbg,background-image="first-slide-background.jpg",background-opacity="0.6", background-size="contain"]
+[background-image="first-slide-background.jpg",background-opacity="0.8", background-size="contain"]
 == Live-Demo
 :hide-uri-scheme:
 
@@ -54,7 +55,7 @@ Lehrkraft -- (view anonymous stats)
 @enduml
 ----
 
-[.lightbg,background-image="young-students-1.jpeg",background-opacity="0.6", background-size="contain"]
+[background-image="young-students-1.jpeg",background-opacity="0.8", background-size="contain"]
 === Use-Case Diagramm (Student and Guest)
 [plantuml]
 ----
