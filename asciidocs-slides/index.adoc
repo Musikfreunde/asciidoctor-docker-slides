@@ -1,3 +1,4 @@
+[background-image="coding-background.jpeg",background-opacity="0.3", background-size="contain"]
 [.title]
 = `LeoCode`
 Benjamin Besic, David Ignjatovic, Bozidar Spasenovic
