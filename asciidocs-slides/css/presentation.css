@@ -8,7 +8,7 @@
 
 
 section.title {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Courier New", sans-serif;
     font-weight: bold;
     text-decoration: underline;
     line-height: 1em;
@@ -18,5 +18,9 @@ section.title {
 }
 
 .title-text{
-    font-family: "Courier New";
+    font-family: "Courier New", sans-serif;
+}
+
+.names{
+    font-family: "Courier New",sans-serif;
 }
