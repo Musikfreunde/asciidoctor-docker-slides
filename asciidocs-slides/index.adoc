@@ -37,21 +37,21 @@ http://vm147.htl-leonding.ac.at[window="_blank"]
 == Aufgabenstellung/Anforderung
 
 [background-image="young-students-1.jpeg",background-opacity="0.3", background-size="contain"]
-=== Use-Case Diagramm (Lehrkraft)
+=== Use-Case Diagramm (Teacher)
 [plantuml]
 ----
 
 @startuml
 
 left to right direction
-:Lehrkraft:
+:Teacher:
 
 rectangle LeoCode{
 
-Lehrkraft -- (publish coding tasks)
-Lehrkraft -- (view current coding tasks)
-Lehrkraft -- (edit coding tasks)
-Lehrkraft -- (view anonymous stats)
+Teacher -- (publish coding tasks)
+Teacher -- (view current coding tasks)
+Teacher -- (edit coding tasks)
+Teacher -- (view anonymous stats)
 (edit coding tasks) .> (edit/create unit tests) : <<include>>
 
 }
