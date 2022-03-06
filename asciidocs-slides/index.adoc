@@ -1,6 +1,5 @@
 [.title]
 = LeoCode
-[.names]
 Benjamin Besic, David Ignjatovic, Bozidar Spasenovic
 :customcss: css/presentation.css
 :imagesdir: images
