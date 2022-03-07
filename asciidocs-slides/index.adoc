@@ -38,30 +38,7 @@ http://vm147.htl-leonding.ac.at[window="_blank"]
 image::process-diagram.png[]
 
 [transition="zoom-in slide-out"]
-== Aufgabenstellung/Anforderung
-
-[background-image="young-students-1.jpeg",background-opacity="0.3", background-size="contain"]
-=== Use-Case Diagramm (Teacher)
-[plantuml]
-----
-
-@startuml
-
-left to right direction
-:Teacher:
-
-rectangle LeoCode{
-
-Teacher -- (publish coding tasks)
-Teacher -- (view current coding tasks)
-Teacher -- (edit coding tasks)
-Teacher -- (view anonymous stats)
-(edit coding tasks) .> (edit/create unit tests) : <<include>>
-
-}
-
-@enduml
-----
+== Aufgabenstellung / Anforderung
 
 [background-image="young-students-3.jpeg",background-opacity="0.3", background-size="contain"]
 === Use-Case Diagramm (Student and Guest)
@@ -88,6 +65,31 @@ Student -- (make task feedback available for Professor)
 @enduml
 ----
 
+[background-image="young-students-1.jpeg",background-opacity="0.3", background-size="contain"]
+=== Use-Case Diagramm (Teacher)
+[plantuml]
+----
+
+@startuml
+
+left to right direction
+:Teacher:
+
+rectangle LeoCode{
+
+Teacher -- (publish coding tasks)
+Teacher -- (view current coding tasks)
+Teacher -- (edit coding tasks)
+Teacher -- (view anonymous stats)
+(edit coding tasks) .> (edit/create unit tests) : <<include>>
+
+}
+
+@enduml
+----
+
+
+
 [transition="zoom-in slide-out"]
 == Ziele
 [%step]
@@ -103,9 +105,20 @@ Student -- (make task feedback available for Professor)
 
 === Vorheriges Projekt
 [.fontsizeDescription]
-Projekt eines ehemaligen Schülers wurde uns zur Verfügung gestellt.
+//Projekt eines ehemaligen Schülers wurde uns zur Verfügung gestellt.
+Projekt eines ehemaligen Schülers wurde als Prototyp zur Verfügung gestellt.
 
 image::sys-arc.jpeg[]
+
+
+== Aufgabenstellung
+* Refactoring des Codes
+* Student und Teacher Frontend bearbeitet
+** Monaco editor eingebaut
+* Deployment
+** gh-actions
+** Docker in Docker
+
 
 [transition="zoom-in slide-out"]
 == DANKE FÜR IHRE AUFMERKSAMKEIT
