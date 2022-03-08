@@ -111,7 +111,7 @@ Projekt eines ehemaligen Schülers wurde als Prototyp zur Verfügung gestellt.
 image::sys-arc.jpeg[]
 
 
-== Aufgabenstellung
+== Unsere Aufgaben
 * Refactoring des Codes
 * Student und Teacher Frontend bearbeitet
 ** Monaco editor eingebaut
