@@ -6,21 +6,7 @@
     font-size: smaller;
 }
 
-
-section.title {
-    font-family: "Courier New", sans-serif;
-    font-weight: bold;
-    text-decoration: underline;
-    line-height: 1em;
-    margin-bottom: -.4rem;
-    margin-top: 1.2rem;
-    color: #33291fe0
+.reveal section.title {
+    font-family: Impact, sans-serif;
 }
 
-.title-text{
-    font-family: "Courier New", sans-serif;
-}
-
-.names{
-    font-family: "Courier New",sans-serif;
-}
