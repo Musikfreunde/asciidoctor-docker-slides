@@ -34,7 +34,7 @@ http://vm147.htl-leonding.ac.at[window="_blank"]
 [%notitle]
 [transition="zoom-in slide-out"]
 == Process diagram
-image::process-diagram.png[]
+image::gesch-prozess.JPG[]
 
 [transition="zoom-in slide-out"]
 == Aufgabenstellung / Anforderung
