@@ -9,6 +9,8 @@ ifndef::backend[:backend: html5]
 :revealjs_parallaxBackgroundSize: contain
 :revealjs_parallaxBackgroundImage: images/background.png
 :title-slide-background-image: coding-background.png
+:iconfont-remote!:
+:iconfont-name: fonts/css/all
 
 [background-image="young-students-2.jpeg",background-opacity="0.3", background-size="contain"]
 [transition="zoom-in slide-out"]
@@ -112,12 +114,12 @@ image::sys-arc.jpeg[]
 
 
 == Unsere Aufgaben
-* Refactoring des Codes
-* Student und Teacher Frontend bearbeitet
+* Refactoring des Codes icon:code[]
+* Student und Teacher Frontend bearbeitet icon:angular[] icon:display-code[]
 ** Monaco editor eingebaut
 * Deployment
-** gh-actions
-** Docker in Docker
+** gh-actions icon:github[]
+** Docker in Docker icon:docker[]
 
 
 [transition="zoom-in slide-out"]

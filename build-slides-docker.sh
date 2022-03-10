@@ -9,9 +9,10 @@ cp -r -p -v $REVEAL_DIR $BUILD_DIR
 echo "Rendering slides"
 docker run --rm \
            -v ${PWD}/$BUILD_DIR:/documents \
-           asciidoctor/docker-asciidoctor:1.2.0 asciidoctor-revealjs \
+           asciidoctor/docker-asciidoctor asciidoctor-revealjs \
            -r asciidoctor-diagram \
            -a icons=font \
+           -a iconfont-name=fonts/css/all \
            -a revealjs_theme=white \
            -a source-highlighter=rouge \
            -a imagesdir=images \
