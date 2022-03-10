@@ -1,4 +1,4 @@
-= `LeoCode`
+= LeoCode
 Benjamin Besic, David Ignjatovic, Bozidar Spasenovic
 :customcss: css/presentation.css
 :imagesdir: images
@@ -28,6 +28,7 @@ ifndef::backend[:backend: html5]
 [background-image="first-slide-background.jpg",background-opacity="0.3", background-size="contain"]
 [transition="zoom-in slide-out"]
 == Live-Demo
+[.boldText]
 :hide-uri-scheme:
 http://vm147.htl-leonding.ac.at[window="_blank"]
 

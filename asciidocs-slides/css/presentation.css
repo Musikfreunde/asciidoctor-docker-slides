@@ -6,4 +6,18 @@
     font-size: smaller;
 }
 
+.reveal h1 {
+    font-family: Courier, monospace;
+}
+
+.reveal h2 {
+    font-family: Courier, monospace;
+}
+
+.boldText {
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+
 
