@@ -17,7 +17,6 @@ ifndef::backend[:backend: html5]
 == Ausgangssituation
 [%step]
  - Die HTL Leonding ist eine technische Schule, die Programmieren lehrt.
-
  - Ohne Vorkenntnisse sehr anspruchsvoll
 //
 //[transition="zoom-in slide-out"]
