@@ -9,22 +9,14 @@ ifndef::backend[:backend: html5]
 :revealjs_parallaxBackgroundSize: contain
 :revealjs_parallaxBackgroundImage: images/background.png
 :title-slide-background-image: coding-background.png
-:iconfont-remote!:
-:iconfont-name: fonts/css/all
 
 [background-image="young-students-2.jpeg",background-opacity="0.3", background-size="contain"]
 [transition="zoom-in slide-out"]
 == Ausgangssituation
+[.goals]
 [%step]
  - Die HTL Leonding ist eine technische Schule, die Programmieren lehrt.
  - Ohne Vorkenntnisse sehr anspruchsvoll
-//
-//[transition="zoom-in slide-out"]
-//== Problemstellung
-//[%step]
-//- nicht genug praktische Übung
-//- Schwierigkeiten bei den Hausübungen
-//- Probleme mit den IDE's
 
 [background-image="first-slide-background.jpg",background-opacity="0.3", background-size="contain"]
 [transition="zoom-in slide-out"]
@@ -90,9 +82,10 @@ Teacher -- (view anonymous stats)
 ----
 
 
-
+[background-image="young-students-3.jpg",background-opacity="0.3", background-size="contain"]
 [transition="zoom-in slide-out"]
 == Ziele
+[.goals]
 [%step]
 - Vielfalt von Beispielen inklusive Unterrichtsbeispielen
 
@@ -100,6 +93,7 @@ Teacher -- (view anonymous stats)
 
 - Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
 
+- Schülern den Einstieg ins Programmieren erleichtern
 
 [transition="zoom-in slide-out"]
 == Was haben wir gemacht?
@@ -114,12 +108,11 @@ image::sys-arc.jpeg[]
 
 == Unsere Aufgaben
 * Refactoring des Codes icon:code[]
-* Student und Teacher Frontend bearbeitet icon:angular[] icon:display-code[]
-** Monaco editor eingebaut
+* Student und Teacher Frontend bearbeitet
+** Monaco editor eingebaut icon:file-text[]
 * Deployment
 ** gh-actions icon:github[]
-** Docker in Docker icon:docker[]
-
+** Docker in Docker
 
 [transition="zoom-in slide-out"]
 == DANKE FÜR IHRE AUFMERKSAMKEIT

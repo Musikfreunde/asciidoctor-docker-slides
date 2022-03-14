@@ -12,7 +12,7 @@ docker run --rm \
            asciidoctor/docker-asciidoctor asciidoctor-revealjs \
            -r asciidoctor-diagram \
            -a icons=font \
-           -a iconfont-name=fonts/css/all \
+           -a iconfont-name=fonts/fontawesome/css/all \
            -a revealjs_theme=white \
            -a source-highlighter=rouge \
            -a imagesdir=images \
