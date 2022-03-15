@@ -1,0 +1,119 @@
+= LeoCode
+Benjamin Besic, David Ignjatovic, Bozidar Spasenovic
+:customcss: css/presentation.css
+:imagesdir: images
+ifndef::sourcedir[:sourcedir: ../src/main/java]
+ifndef::imagesdir[:imagesdir: images]
+ifndef::backend[:backend: html5]
+:icons: font
+:revealjs_parallaxBackgroundSize: contain
+:revealjs_parallaxBackgroundImage: images/background.png
+:title-slide-background-image: coding-background.png
+
+[background-image="young-students-2.jpeg",background-opacity="0.3", background-size="contain"]
+[transition="zoom-in slide-out"]
+== Ausgangssituation
+[.goals]
+[%step]
+ - Die HTL Leonding ist eine technische Schule, die Programmieren lehrt.
+ - Ohne Vorkenntnisse sehr anspruchsvoll
+
+[background-image="first-slide-background.jpg",background-opacity="0.3", background-size="contain"]
+[transition="zoom-in slide-out"]
+== Live-Demo
+[.boldText]
+[.goals]
+:hide-uri-scheme:
+http://vm147.htl-leonding.ac.at[window="_blank"]
+
+[%notitle]
+[transition="zoom-in slide-out"]
+== Process diagram
+image::gesch-prozess.JPG[]
+
+[transition="zoom-in slide-out"]
+== Aufgabenstellung / Anforderung
+
+[background-image="young-students-3.jpeg",background-opacity="0.3", background-size="contain"]
+=== Use-Case Diagramm (Student and Guest)
+[plantuml]
+----
+@startuml
+
+left to right direction
+:Student:
+:Guest:
+rectangle LeoCode{
+
+
+Guest -up- (do coding task)
+Guest -up- (view unit test feedback)
+
+Student -- (manage own coding tasks)
+Student -- (do coding task)
+Student -- (view unit test feedback)
+Student -- (make task feedback available for Professor)
+
+}
+
+@enduml
+----
+
+[background-image="young-students-1.jpeg",background-opacity="0.3", background-size="contain"]
+=== Use-Case Diagramm (Teacher)
+[plantuml]
+----
+
+@startuml
+
+left to right direction
+:Teacher:
+
+rectangle LeoCode{
+
+Teacher -- (publish coding tasks)
+Teacher -- (view current coding tasks)
+Teacher -- (edit coding tasks)
+Teacher -- (view anonymous stats)
+(edit coding tasks) .> (edit/create unit tests) : <<include>>
+
+}
+
+@enduml
+----
+
+
+[background-image="young-students-3.jpg",background-opacity="0.3", background-size="contain"]
+[transition="zoom-in slide-out"]
+== Ziele
+[.goals]
+[%step]
+- Vielfalt von Beispielen inklusive Unterrichtsbeispielen
+
+- Koordination des Unterrichts
+
+- Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
+
+- Schülern den Einstieg ins Programmieren erleichtern
+
+[transition="zoom-in slide-out"]
+== Was haben wir gemacht?
+
+=== Vorheriges Projekt
+[.fontsizeDescription]
+//Projekt eines ehemaligen Schülers wurde uns zur Verfügung gestellt.
+Projekt eines ehemaligen Schülers wurde als Prototyp zur Verfügung gestellt.
+
+image::sys-arc.jpeg[]
+
+
+== Unsere Aufgaben
+* Refactoring des Codes icon:code[]
+* Student und Teacher Frontend bearbeitet
+** Monaco editor eingebaut icon:file-text[]
+* Deployment
+** gh-actions icon:github[]
+** Docker in Docker
+
+[transition="zoom-in slide-out"]
+== DANKE FÜR IHRE AUFMERKSAMKEIT
